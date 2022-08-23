@@ -1,21 +1,17 @@
 import React from "react";
+import Synonyms from "./Synonyms";
 
-export default function Meaning(porps) {
+export default function Meaning(props) {
   return (
     <div className="Meaning">
-      <h3>{porps.meaning.partOfSpeech}</h3>
-      {porps.meaning.definitions.map(function (definition, index)
-      {
-        return (
-          <div key={index}>
-            <p>
-              {definition.definition}
-              <br />
-              <em>{definition.example}</em>
-            </p>
-          </div>
-        );
-      })}
+      <h3>{props.meaning.partOfSpeech}</h3>
+      <div>
+        <p>
+          <strong>Definition:</strong>{props.meaning.definitions[0].definition}
+          <br />
+          <Synonyms synonyms={props.meaning.synonyms} />
+        </p>
+      </div>
     </div>
   );
 }
