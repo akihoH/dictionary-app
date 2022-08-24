@@ -12,9 +12,8 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className='text-center'>
-          coded by Akiho Hamamoto
-        </footer>
+        {/* <footer className='text-center'>
+        </footer> */}
       </div>
     </div>
   );
