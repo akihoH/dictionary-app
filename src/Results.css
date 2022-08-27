@@ -1,0 +1,9 @@
+.Results .Summary {
+  display: flex;
+  vertical-align: left;
+}
+
+.Results h2 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
