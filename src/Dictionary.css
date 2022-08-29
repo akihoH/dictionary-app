@@ -6,6 +6,10 @@
   margin: 50px 0;
 }
 
+.Dictionary .Search {
+  padding: 70px 0 10px 0;
+}
+
 .Dictionary input {
   width: 100%;
 }
