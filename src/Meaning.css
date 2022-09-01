@@ -3,6 +3,14 @@
   padding-bottom: 10px;
 }
 
+.Meaning h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
 .Meaning .example {
   font-style: italic;
+  font-size: 16px;
+  opacity: 0.7;
 }
