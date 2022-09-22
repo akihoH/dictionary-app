@@ -49,7 +49,7 @@ if(loaded) {
   return <div className="Dictionary">
     <div className="Search">
       <form onSubmit={handleSubmit} className="form-group">
-        <input type="search" autoFocus={true} className="form-control" onChange={handleKeywordChange} placeholder="What word do you want to look up?"/>
+        <input type="search" autoFocus={true} className="form-control" onChange={handleKeywordChange} placeholder="Type a word here!"/>
       </form>
     </div>
     <Results results={results} />
